@@ -11,21 +11,24 @@ HowToUse
 ------------------------
 **1. Set the Class**
 
-<img src="https://user-images.githubusercontent.com/66738234/116811915-c9878000-ab86-11eb-964c-8d1ea13125b2.png" width="70%" title="class_setting"></img>
+![class_setting](https://user-images.githubusercontent.com/66738234/116811915-c9878000-ab86-11eb-964c-8d1ea13125b2.png)
 
  * setting the title to **person**
  * setting shape to **keypoints**
  * drawing the keypoints templete or uploading a keypoint image
+ 
 
 **2. Draw keypoints on the image**
+
 ![skeleton_drawing](https://user-images.githubusercontent.com/66738234/116812122-0b64f600-ab88-11eb-91da-6e42107672ac.png)
 
 **3. Download annotation and meta file(.json) from supervisely**
 
 **4. Execute the code**
 
-    Anconda prompt
-    > python supervisely2coco.py meta_file_path(~/meta.json) annotation_dir_path(~/ann) save_dir_path(~/,deault = ./result.json)
+>Anconda prompt
+
+> python supervisely2coco.py meta_file_path(~/meta.json) annotation_dir_path(~/ann) save_dir_path(~/,deault = ./result.json)
 
 
 ------------------------
