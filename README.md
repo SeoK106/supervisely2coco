@@ -26,10 +26,24 @@ HowToUse
 
 **4. Execute the code**
 
->Anconda prompt
+     #Anconda prompt
+     
+     > python supervisely2coco.py meta_file_path annotation_dir_path save_dir_path
+     
+     * meta_file_path: ~/meta.json
+     * annotation_dir_path: ~/ann
+     * save_dir_path: ~/, default = ./result.json
+    
+ Output
+ ----------------------
+ 
+![result](https://user-images.githubusercontent.com/66738234/116812782-7ebc3700-ab8b-11eb-8872-de34acc400c1.png)
 
-> python supervisely2coco.py meta_file_path(~/meta.json) annotation_dir_path(~/ann) save_dir_path(~/,deault = ./result.json)
+cf. On the left is **'sample_1_person.png'**, and on the right is **'smaple_2_person.png'**.
 
+![input_images](https://user-images.githubusercontent.com/66738234/116812900-2afe1d80-ab8c-11eb-91a9-8f70ff1f4206.png)
+ 
+ 
 
 ------------------------
 Souce code Referenced: https://gist.github.com/caiofcm/0b93b0084669a1287633d9ebf32f3833
