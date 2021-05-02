@@ -1,7 +1,6 @@
 """
    **************************************
     Author : SeoK106
-    Email: sseok106@gmail.com
     ------------------------------------
     Original Author: Caio Marcellos          
          Email: caiocuritiba@gmail.com
