@@ -1,2 +1,6 @@
-# supervisely2coco
-Convert supervisely output to COCO keypoint data format
+Supervisely to COCO
+=========================
+
+Convert [supervisely](https://supervise.ly/) output to COCO keypoint data format
+
+# HowToUse
