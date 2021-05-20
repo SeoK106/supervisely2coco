@@ -57,15 +57,15 @@ def convert_supervisely_to_coco(meta_path, ann_dir, save_dir='./'):
     coco_fmt = {
         "info": {
             "description" : "Convert supersively to COCO format",
-            "version": "1.0",
+            "version": " ", # set the version
             "year": datetime.now().strftime('%Y'),
-            "contributor": "SeoK",
+            "contributor": " ", # set the name of contributor
             "date_created": datetime.now().strftime("%Y/%m/%d")
         },
         "licenses": [
             {
-                "id": 1,
-                "name": "SeoK"
+                "id": , # set the license id
+                "name": " "  # set the license name
             }
         ],
         "images": images_repr,
@@ -103,7 +103,7 @@ def divide_and_generate_annots(idimg, fname_img, json_suprv, categories, imgs_ba
     # Generate image_part
     # omitted elements: coco_url, date_captured, flickr_url
     image_annot = {
-            "license": 1,
+            "license": , # set the id of license ex)"licenses": 1
             "file_name": fname_img,
             "height": json_suprv['size']['height'],
             "width": json_suprv['size']['width'],
