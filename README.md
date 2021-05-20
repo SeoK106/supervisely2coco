@@ -17,6 +17,9 @@ HowToUse
  * setting the title to **person**
  * setting shape to **keypoints**
  * drawing the keypoints templete or uploading a keypoint image
+     * set the node name : {"Head","neck","right shoulder", ...}
+     * set the edge name : {"1,2","2,3",...} --> the nodes that the edge is connected to : "from,to"
+            * I start the node with 1(not 0), but it doesn't matter what it start with. It's up to the developer.
  
 
 **2. Draw keypoints on the image**
